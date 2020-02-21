@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.packtpublishing.tddjava.ch02friendships.SeleniumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-21T13:32:28" hostname="mikkita-TM1701" time="7.095">
+  <properties/>
+  <testcase name="wikipediaSearchFeature" classname="com.packtpublishing.tddjava.ch02friendships.SeleniumTest" time="7.095"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1582291948759	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiler9DTiv"
+1582291949147	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582291949522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582291949522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582291949522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582291949522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582291951655	Marionette	INFO	Listening on port 45841
+1582291951674	Marionette	WARN	TLS certificate errors will be ignored for this session
+февр. 21, 2020 4:32:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1582291953320	Marionette	INFO	Stopped listening on port 45841
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+]]></system-err>
+</testsuite>

@@ -14,7 +14,7 @@ public class SeleniumTest {
     @Test
     public void wikipediaSearchFeature() throws InterruptedException {
         // Declaring the web driver used for web browsing
-        System.setProperty("webdriver.gecko.driver","/home/mikkita/geckodriver");
+        System.setProperty("webdriver.gecko.driver","/home/mikkita/IdeaProjects/tdd-java-ch02-example-web/geckodriver");
 
         WebDriver driver = new FirefoxDriver();
 
