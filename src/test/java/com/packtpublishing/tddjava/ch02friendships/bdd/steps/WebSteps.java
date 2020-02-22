@@ -10,6 +10,7 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertThat;
 
 public class WebSteps {
+
     @Given("^I go to Wikipedia homepage$")
     @org.jbehave.core.annotations.Given("I go to Wikipedia homepage")
     public void goToWikiPage() {

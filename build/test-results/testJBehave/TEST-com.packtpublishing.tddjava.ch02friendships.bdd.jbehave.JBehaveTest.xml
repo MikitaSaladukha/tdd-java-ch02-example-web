@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.packtpublishing.tddjava.ch02friendships.bdd.jbehave.JBehaveTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-22T09:36:49" hostname="mikkita-TM1701" time="7.198">
+  <properties/>
+  <testcase name="run" classname="com.packtpublishing.tddjava.ch02friendships.bdd.jbehave.JBehaveTest" time="7.198"/>
+  <system-out><![CDATA[Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,failOnStoryTimeout=false,threads=1]
+
+(BeforeStories)
+
+Running story bdd/jbehave/stories/wikipediaSearch.story
+
+(bdd/jbehave/stories/wikipediaSearch.story)
+Scenario: TDD search on wikipedia
+Given I go to Wikipedia homepage
+When I enter the value Test-driven development on a field named search
+When I click the button go
+Then the page title contains Test-driven development
+
+
+
+(AfterStories)
+
+Generating reports view to '/home/mikkita/IdeaProjects/tdd-java-ch02-example-web/build/reports/jbehave' using formats '[stats, console, html]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 1 stories (of which 0 pending) containing 1 scenarios (of which 0 pending)
+]]></system-out>
+  <system-err><![CDATA[февр. 22, 2020 12:36:49 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 16 - let's create a new webdriver
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+февр. 22, 2020 12:36:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+февр. 22, 2020 12:36:54 PM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+февр. 22, 2020 12:36:54 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=firefox Version=73.0 Platform=LINUX
+февр. 22, 2020 12:36:54 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.2.1
+февр. 22, 2020 12:36:54 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+февр. 22, 2020 12:36:54 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 16: FirefoxDriver -> FirefoxDriver: firefox on LINUX (74847be3-9f50-4243-823c-4a6444ef013f)
+]]></system-err>
+</testsuite>

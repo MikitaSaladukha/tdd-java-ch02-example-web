@@ -25,6 +25,7 @@ public class JBehaveTest extends JUnitStory {
 
     @Override
     public Configuration configuration() {
+        System.setProperty("selenide.browser","Firefox");
         Properties viewResources = new Properties();
         viewResources.put("decorateNonHtml", "true");
         return new MostUsefulConfiguration()
