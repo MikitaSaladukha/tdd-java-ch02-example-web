@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.packtpublishing.tddjava.ch02friendships.bdd.cucumber.CucumberTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="mikkita-TM1701" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Wikipedia Search
+
+  Scenario: TDD search on wikipedia                                        ?[90m# bdd/cucumber/features/wikipediaSearch.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI go to Wikipedia homepage?[0m                                       ?[90m# WebSteps.goToWikiPage()?[0m
+    ?[32mWhen ?[0m?[32mI enter the value ?[0m?[32m?[1mTest-driven development?[0m?[32m on a field named ?[0m?[32m?[1msearch?[0m ?[90m# WebSteps.enterValueOnFieldByName(String,String)?[0m
+    ?[32mWhen ?[0m?[32mI click the button ?[0m?[32m?[1mgo?[0m                                             ?[90m# WebSteps.clickButonByName(String)?[0m
+    ?[32mThen ?[0m?[32mthe page title contains ?[0m?[32m?[1mTest-driven development?[0m                   ?[90m# WebSteps.pageTitleIs(String)?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+4 Steps (?[32m4 passed?[0m)
+0m5,977s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

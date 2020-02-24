@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TDD search on wikipedia" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-24T09:06:53" hostname="mikkita-TM1701" time="0.816">
+  <properties/>
+  <testcase name="Given I go to Wikipedia homepage" classname="Scenario: TDD search on wikipedia" time="0.0"/>
+  <testcase name="When I enter the value Test-driven development on a field named search" classname="Scenario: TDD search on wikipedia" time="0.0"/>
+  <testcase name="When I click the button go" classname="Scenario: TDD search on wikipedia" time="0.0"/>
+  <testcase name="Then the page title contains Test-driven development" classname="Scenario: TDD search on wikipedia" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: TDD search on wikipedia" time="6.5"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[февр. 24, 2020 12:06:47 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+февр. 24, 2020 12:06:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+февр. 24, 2020 12:06:51 PM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+февр. 24, 2020 12:06:51 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=firefox Version=73.0 Platform=LINUX
+февр. 24, 2020 12:06:51 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.2.1
+февр. 24, 2020 12:06:51 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+февр. 24, 2020 12:06:51 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: FirefoxDriver -> FirefoxDriver: firefox on LINUX (c64d672c-d6ed-4e8d-9677-0aea981bf465)
+]]></system-err>
+</testsuite>
